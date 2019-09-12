@@ -1,0 +1,1 @@
+Learned about permissions, how to set them, and extend them to different users on the server
