@@ -13,7 +13,8 @@ do
 	then
 	    echo good luck
 	    ((itr++))
-	fi
+	else
 	echo Holberton School
 	((itr++))
+	fi
 done
