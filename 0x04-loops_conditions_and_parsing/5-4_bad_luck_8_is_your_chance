@@ -3,7 +3,7 @@
 
 itr=1
 
-while [ $itr -lt 10 ]
+while [ $itr -le 10 ]
 do
 	if [ $itr -eq 4 ]
 	then
