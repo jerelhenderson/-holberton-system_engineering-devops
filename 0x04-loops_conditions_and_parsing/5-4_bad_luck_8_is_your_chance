@@ -9,8 +9,7 @@ do
 	then
 	    echo bad luck
 	    ((itr++))
-	fi
-	if [ $itr -eq 8 ]
+	elif [ $itr -eq 8 ]
 	then
 	    echo good luck
 	    ((itr++))
