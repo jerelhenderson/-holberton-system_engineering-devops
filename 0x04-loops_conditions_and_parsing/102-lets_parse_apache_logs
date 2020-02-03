@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+# displays visitor IP along w/ HTTP status code

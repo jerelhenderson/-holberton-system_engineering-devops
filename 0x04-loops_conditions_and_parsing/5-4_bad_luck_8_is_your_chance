@@ -5,14 +5,16 @@ itr=1
 
 while [ $itr -lt 10 ]
 do
-	echo Holberton School
-	((itr++))
 	if [ $itr -eq 4 ]
 	then
 	    echo bad luck
+	    ((itr++))
 	fi
 	if [ $itr -eq 8 ]
 	then
 	    echo good luck
+	    ((itr++))
 	fi
+	echo Holberton School
+	((itr++))
 done
