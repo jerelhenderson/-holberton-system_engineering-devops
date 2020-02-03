@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# displays "Holberton School" ten times
+
+itr=0
+
+until [ $itr = 10 ]
+do
+	echo Holberton School
+	((itr++))
+done

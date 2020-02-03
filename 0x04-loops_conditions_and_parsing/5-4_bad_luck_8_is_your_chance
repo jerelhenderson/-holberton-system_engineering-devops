@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# displays "Holberton School" eight times, "bad luck" at ln4, "good luck" at ln8
+
+itr=1
+
+while [ $itr -lt 10 ]
+do
+	echo Holberton School
+	((itr++))
+	if [ $itr -eq 4 ]
+	then
+		echo bad luck
+	elif [ $itr -eq 8 ]
+	then
+		echo good luck
+	fi
+done

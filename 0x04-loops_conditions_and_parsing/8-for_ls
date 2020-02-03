@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# displays content of cwd, in ls format, name only
+
+for files in *
+do
+	echo $files | cut -d '-' -f2
+done

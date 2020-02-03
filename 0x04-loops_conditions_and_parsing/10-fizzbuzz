@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# displays numbers from 1-100
+
+for num in {1..100} 3
+do
+	if [ $((num % 15)) -eq 0 ]
+	then
+	    echo FizzBuzz
+	    continue
+	fi
+	if [ $((num % 5)) -eq 0 ]
+	then
+	    echo Buzz
+	    continue
+	fi
+	if [ $((num % 3)) -eq 0 ]
+	then
+	    echo Fizz
+	    continue
+	fi
+	echo $num
+done
