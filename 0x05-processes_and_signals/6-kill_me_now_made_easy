@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# terminates 4-to_infinity_and_beyond process
+
+# ps aux | egrep '[.]/4-to_infinity_and_beyond' | awk '{print $2}' |
+# kill $(ps aux | egrep '[.]/4-to_infinity_and_beyond' | awk '{print $2}')
+pkill -f ./4-to_infinity_and_beyond

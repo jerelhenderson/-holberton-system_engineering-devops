@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# terminates 7-highlander process using pkill
+
+# ps aux | egrep '[.]/4-to_infinity_and_beyond' | awk '{print $2}' |
+# kill $(ps aux | egrep '[.]/4-to_infinity_and_beyond' | awk '{print $2}')
+pkill -f ./7-highlander

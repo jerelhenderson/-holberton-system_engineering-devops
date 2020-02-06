@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# display "To infinity and beyond" and "I am invincible" if attempt-terminated
+
+trap "echo I am invincible!!!" SIGTERM
+
+loop=0
+while [ $loop ]
+do
+	echo "To infinity and beyond";
+	sleep 2;
+done
+
+echo I am invincible!!!
