@@ -10,5 +10,4 @@ loop=0
 while [ $loop ]
 do
 	echo "To infinity and beyond";
-	sleep 2;
 done
