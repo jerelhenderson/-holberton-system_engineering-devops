@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# uses ssh to connect to far away data center
+ssh -i ~/.ssh/holberton ubuntu@54.152.200.18
