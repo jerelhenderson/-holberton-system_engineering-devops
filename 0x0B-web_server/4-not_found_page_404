@@ -8,8 +8,8 @@ sudo sed -i "38i\ $string_301" /etc/nginx/sites-available/default
 
 echo "Ceci n'est pas une page" | sudo tee /usr/share/nginx/html/404.html
 
-replace_404="#error_page /404.html"
-string_404="error_page /404.html;\n\tlocation = /404.html {\n\troot /usr/share/nginx/html;\n\tinternal;\n\t}"
-sudo sed -i "s/$replace_404/$string_404/\n" /etc/nginx/sites-available/default
+replace_404="#error_page 404"
+string_404="error_page 404"
+sudo sed -i "s/$replace_404/$string_404/" /etc/nginx/sites-available/default
 
 sudo service nginx restart
