@@ -13,4 +13,4 @@ This introductory system engineering and DevOps project covers
 | Program	  | Description						     |
 | --------------- |:--------------------------------------------------------:|
 | 0-nginx_likes_port_80	| install, configure, and run nginx listening on port 80 |
-| 1-debugging_made_short      | install, configure, and run nginx listening on port 80 - simpler |
+| 1-debugging_made_short      | do the above - simpler |
