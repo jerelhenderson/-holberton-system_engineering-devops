@@ -1,5 +1,5 @@
-# Holberton School - Low Level Programming
-## 0x0D - CI/CD (Configuration Management)
+# Holberton School - System Engineering and DevOps
+## 0x0E - Web Stack Debugging #1
 
 ### Purpose
 This introductory system engineering and DevOps project covers
