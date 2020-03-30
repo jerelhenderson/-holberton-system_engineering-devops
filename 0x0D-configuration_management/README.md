@@ -1,4 +1,4 @@
-# Holberton School - Low Level Programming
+# Holberton School - System Engineering and DevOps
 ## 0x0D - CI/CD (Configuration Management)
 
 ### Purpose
