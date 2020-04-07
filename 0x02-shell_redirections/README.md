@@ -24,7 +24,7 @@ This introductionary Shell scripting project covers
 | Program	  | Description						     |
 | --------------- |:--------------------------------------------------------:|
 | 0-hello_world | print "Hello World" |
-| 1-confused_smiley      | print `"(Ôo)'` 	 |
+| 1-confused_smiley      | print `\"(Ôo)'` 	 |
 | 2-hellofile      | display content of `/etc/passwd` 	 |
 | 3-twofiles 	  | display content of `/etc/passwd` and `/etc/`hosts` |
 | 4-lastlines	  | display last ten lines of `/etc/passwd` |
