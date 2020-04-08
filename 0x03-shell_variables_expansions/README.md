@@ -34,3 +34,4 @@ This introductionary Shell scripting project covers
 | 13-print_float | print number w/ two decimal places |
 | 14-decimal_to_hexadecimal | convert number from base10 to base16 |
 | 100-rot13	   | encode and decode text using rot13 |
+| 101-odd | print every other line from input |
