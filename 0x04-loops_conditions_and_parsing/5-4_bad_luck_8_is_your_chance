@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
 # displays "Holberton School" eight times, "bad luck" at ln4, "good luck" at ln8
 
-itr=1
+i=1
 
-while [ $itr -le 10 ]
+while [ $i -le 10 ]
 do
-	if [ $itr -eq 4 ]
+	if [ $i -eq 4 ]
 	then
 	    echo bad luck
-	    ((itr++))
-	elif [ $itr -eq 8 ]
+	    ((i++))
+	elif [  $i -eq 8 ]
 	then
 	    echo good luck
-	    ((itr++))
+	    ((i++))
 	else
 	echo Holberton School
-	((itr++))
+	((i++))
 	fi
 done

@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # display "Holberton School" ten times, w/ "Hi" after the nineth iteration
 
-itr=0
+i=0
 
-while [ $itr -lt 10 ]
+while [ $i -lt 10 ]
 do
 	echo Holberton School
-	((itr++))
-	if [ $itr -eq 9 ]
+	((i++))
+	if [ $i -eq 9 ]
 	then
 	    echo Hi
 	fi

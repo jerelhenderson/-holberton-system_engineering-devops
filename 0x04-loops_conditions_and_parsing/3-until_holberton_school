@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # displays "Holberton School" ten times
 
-itr=0
+i=0
 
-until [ $itr = 10 ]
+until [ $i = 10 ]
 do
 	echo Holberton School
-	((itr++))
+	((i++))
 done
