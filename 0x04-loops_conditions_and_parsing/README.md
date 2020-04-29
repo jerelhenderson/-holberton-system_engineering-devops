@@ -28,6 +28,6 @@ This introductionary Shell scripting project covers
 | 9-to_file_or_not_to_file | displays information about file "holbertonschool" |
 | 10-fizzbuzz | displays numbers 1 to 100, with various words inserted in-between |
 | *100-read_and_cut | display content of `/etc/passwd` |
-| *101-tell_the_story_of_passwd |
+| *101-tell_the_story_of_passwd | display content of `/etc/passwd`, using `while` + IFS |
 | *102-lets_parse_apache_logs | displays visitor log w/ HTTP status code from Apache log file |
 | *103-dig_the_data | using above, group visitors by IP and HTTP status code |
