@@ -1,5 +1,5 @@
 # Holberton School - System Engineering & DevOps
-## 0x12 - Web Stack (Web Stack Debugging #2)
+## 0x13 - Web Stack (Web Stack Debugging #2)
 
 ### Purpose
 This introductionary Web Stack scripting project covers
@@ -12,5 +12,6 @@ This introductionary Web Stack scripting project covers
 ### File List
 | Program	  | Description						     |
 | --------------- |:--------------------------------------------------------:|
-| 0-firewall_ABC |  |
-| 1-run_nginx_as_nginx      | fix container so nginx runs as `nginx` user |
+| 0-firewall_ABC | answer questions related to firewall usage |
+| 1-block_all_incoming_traffic_but | install ufw firewall and setup rules |
+| *100-port_forwarding | forward requests |
