@@ -15,5 +15,4 @@ This introductionary HTTPS project covers
 | --------------- |:--------------------------------------------------------:|
 | 0-https_abc | use numbers in answer file |
 | 1-world_wide_web      | configure domain zone so subdomain `www` points to load-balancer IP |
-| 2-haproxy_ssl_termination      | configure HAproxy to handle encrypted traffic, unencript it, and pass it on 	 |
-| 3- 	  |   |
+| *100-haproxy_ssl_termination      | configure HAproxy to handle encrypted traffic, unencrypt it, and pass it on 	 |
