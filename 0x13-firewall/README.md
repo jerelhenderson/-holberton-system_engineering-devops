@@ -3,7 +3,7 @@
 
 ### Purpose
 This introductionary Web Stack scripting project covers
-
+* what is a firewall
 
 ### Requirements
 * Ubuntu 14.04 LTS
