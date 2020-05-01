@@ -4,3 +4,4 @@ sudo rm -f /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
 curl 0:80
+sudo service nginx stop
