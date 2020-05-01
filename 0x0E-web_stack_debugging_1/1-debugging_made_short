@@ -2,5 +2,4 @@
 # script configures server to listen on port 80
 sudo rm -f /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-curl 0:80
 sudo service nginx stop
